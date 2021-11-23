@@ -1,0 +1,12 @@
+.contentWrapper {
+
+    max-width: 1200px;
+    height: 100vh; //Ocupa a tela toda verticalmente
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 453px; //Tamanho da imagem que vai ter na coluna lateral
+    column-gap: 120px; //distância/espaçamento entre as duas colunas
+    position: relative;
+
+}
